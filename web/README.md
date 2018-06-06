@@ -1,8 +1,13 @@
 # WEB前端
+
 ## 关注
 - [掘金](https://juejin.im)，下载对应APP
 - 微信公众号：奇舞周刊
 - [ant design](https://github.com/ant-design/ant-design)
+
+## 类库分享
+- [Lodash](https://www.lodashjs.com/)：实用工具库
+- [Ramda](https://ramdajs.com/)：函数式编程式工具库
 
 ## 入门
 - webstorm安装：官网下载，百度破解码
