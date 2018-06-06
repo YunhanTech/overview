@@ -10,9 +10,16 @@
 - MarkDown
     - [快速入门](http://wowubuntu.com/markdown/basic.html)
     - [完整语法](http://wowubuntu.com/markdown/index.html)
+- SSH keys
+    - [连接原理讲解](https://www.cnblogs.com/chensiqiqi/p/6550221.html)
+    - [使用](https://code.aliyun.com/help/ssh/README)
+- GIT
+    - [简介](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
+    - [使用指南](http://www.bootcss.com/p/git-guide/)
+    - [教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 ## 常用工具
-- [通用开发文档]()
+- [通用开发文档](http://devdocs.io/)
 
 ## 开发
 - [PHP](/php/README.md)
