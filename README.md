@@ -22,5 +22,6 @@
 - [通用开发文档](http://devdocs.io/)
 
 ## 开发
+- [实习生规划](/common/intership.md)
 - [PHP](/php/README.md)
 - [WEB前端](/web/README.md)
