@@ -12,8 +12,6 @@ vim ~/.bash_profile
 export PATH=${PATH}:~/.composer/vendor/bin/
 ````
 
-----
-
 ## IDE - PHPStorm
 - [下载安装](https://www.jetbrains.com/phpstorm/)
 - [破解](http://idea.lanyus.com/)
@@ -25,11 +23,11 @@ export PATH=${PATH}:~/.composer/vendor/bin/
         ````
     - PhpStorm 配置
         ````
-        File -> Default Setting -> Languages & Frameworks -> PHP -> Code Sniffer -> ... -> 添加phpcs路径 -> Apply
+        File -> Default Setting -> Languages & Frameworks -> PHP
+            -> Code Sniffer -> ... -> 添加phpcs路径 -> Apply
+            -> Mess Detector -> ... -> 添加phpmd路径 -> Apply
         
-        File -> Default Setting -> Editor -> Inspections -> PHP -> PHP Code Sniffer validation （打上勾）-> Coding standard -> PSR2 -> Apply
-        
-        File -> Default Setting -> Languages & Frameworks -> PHP -> Mess Detector -> ... -> 添加phpmd路径 -> Apply
-        
-        File -> Default Setting -> Editor -> Inspections -> PHP -> PHP Mess Detector validation （打上勾）-> Options（选择所有规则) -> Apply
+        File -> Default Setting -> Editor -> Inspections -> PHP
+            -> PHP Code Sniffer validation （打上勾）-> Coding standard -> PSR2 -> Apply
+            -> PHP Mess Detector validation （打上勾）-> Options（选择所有规则) -> Apply
         ````
