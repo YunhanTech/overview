@@ -47,3 +47,8 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
         php artisan ide-helper:generate
         php artisan ide-helper:meta
         ````
+    - 重启phpstorm，启动插件
+        ````
+        PhpStorm -> Preferences -> Languages & Frameworks -> PHP -> Laravel
+        # 勾选两个选项
+        ````
