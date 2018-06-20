@@ -18,6 +18,7 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ## IDE - PHPStorm
 - [下载安装](https://www.jetbrains.com/phpstorm/)
 - [破解](http://idea.lanyus.com/)
+- 安装插件：PhpStorm -> Preferences -> Plugins -> Browse repositories...
 - PHP_CS, PHP_MD
     - 安装
         ````
@@ -33,4 +34,16 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
         File -> Default Setting -> Editor -> Inspections -> PHP
             -> PHP Code Sniffer validation （打上勾）-> Coding standard -> PSR2 -> Apply
             -> PHP Mess Detector validation （打上勾）-> Options（选择所有规则) -> Apply
+        ````
+- Laravel 智能提示
+    - 安装插件Laravel Plugin
+    - composer require --dev barryvdh/laravel-ide-helper
+    - bootstrap/app.php 中注册provider
+        ````
+        $app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+        ````
+    - 生成提示文件
+        ````
+        php artisan ide-helper:generate
+        php artisan ide-helper:meta
         ````
