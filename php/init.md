@@ -10,6 +10,9 @@ mv composer.phar /usr/local/bin/composer
 # 打印路径：composer global config bin-dir --absolute
 vim ~/.bash_profile
 export PATH=${PATH}:~/.composer/vendor/bin/
+
+# 设置国内镜像
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ````
 
 ## IDE - PHPStorm
