@@ -21,7 +21,7 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 - 安装插件：PhpStorm -> Preferences -> Plugins -> Browse repositories...
 
 ### 好用的插件
-- PHP_CS, PHP_MD
+- PHP_CS, PHP_MD：代码格式检查，代码优化提示
     - 安装
         ````
         composer global require "squizlabs/php_codesniffer=*"
@@ -53,5 +53,5 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
         ````
         PhpStorm -> Preferences -> Languages & Frameworks -> PHP -> Laravel（勾选两个选项）
         ````
-- [xdebug](init/xdebug.md)
-- Swagger Plugin
+- [xdebug](init/xdebug.md)：断点调试
+- Swagger Plugin：只能提示swagger yaml文档编写
