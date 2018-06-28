@@ -19,6 +19,8 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 - [下载安装](https://www.jetbrains.com/phpstorm/)
 - [破解](http://idea.lanyus.com/)
 - 安装插件：PhpStorm -> Preferences -> Plugins -> Browse repositories...
+
+### 好用的插件
 - PHP_CS, PHP_MD
     - 安装
         ````
@@ -52,4 +54,4 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
         PhpStorm -> Preferences -> Languages & Frameworks -> PHP -> Laravel（勾选两个选项）
         ````
 - [xdebug](init/xdebug.md)
-    
+- Swagger Plugin
