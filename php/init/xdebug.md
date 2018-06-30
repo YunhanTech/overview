@@ -63,3 +63,11 @@ php -m | grep Xdebug
 2. 将 xdebug.ini 中的 remote_host 配置为 10.254.254.254，即可。
 
 如果你的 PHP 没有断点成功，多半是 xdebug 的数据没有传送到 Xdebug 调试器，可以打开 xdebug.remote_log 看下具体的错误内容。
+
+## [DBGP 多人调试](https://www.cnblogs.com/jice/p/5064838.html)
+### 服务器DBGP安装
+todo
+
+### 路由器配置
+1. 地址保留（局域网IP设置）：保证一个开发者局域网IP不变
+1. 端口映射：用于将局域网机器暴露到公网
