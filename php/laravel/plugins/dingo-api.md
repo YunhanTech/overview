@@ -1,0 +1,30 @@
+# dingo/api
+## 特性
+- Content Negotiation
+    - 内容定义：入参定义，参数定义
+- Multiple Authentication Adapters
+    - 多种认证方式
+        - HTTP Basic (Dingo\Api\Auth\Provider\Basic)
+        - JSON Web Tokens (Dingo\Api\Auth\Provider\JWT)
+        - OAuth 2.0 (Dingo\Api\Auth\Provider\OAuth2)
+    - 暂时只使用一种`JWT`
+- API Versioning
+    - 接口版本控制
+    - 【建议】版本控制把版本号放到`url`中
+    - 【建议】使用 `laravel` `group` 实现
+- Rate Limiting
+    - 接口限速
+    - 【建议】使用` laravel` `middleware:auth:api` 实现
+- Response Transformers and Formatters
+    - 响应转换/格式化：对象转数组，标准返回封装
+    - 【建议】`collection`自带对象转数组
+    - 【建议】自行封装，可参考之
+- Error and Exception Handling
+    - 错误异常处理
+    - 【建议】自定封装，可参考之
+- Internal Requests
+    - 内部调用路由获取数据，主要用于控制器内调用其它控制器
+    - 【建议】将此类数据封装到`service`
+- API Blueprint Documentation
+    - 自动生成文档
+    - 【建议】使用swagger-yaml生成文档
