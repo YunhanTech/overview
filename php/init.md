@@ -21,22 +21,8 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 - 安装插件：PhpStorm -> Preferences -> Plugins -> Browse repositories...
 
 ### 好用的插件
-- PHP_CS, PHP_MD：代码格式检查，代码优化提示
-    - 安装
-        ````
-        composer global require "squizlabs/php_codesniffer=*"
-        composer global require "phpmd/phpmd"
-        ````
-    - PhpStorm 配置
-        ````
-        File -> Default Setting -> Languages & Frameworks -> PHP
-            -> Code Sniffer -> ... -> 添加phpcs路径 -> Apply
-            -> Mess Detector -> ... -> 添加phpmd路径 -> Apply
-        
-        File -> Default Setting -> Editor -> Inspections -> PHP
-            -> PHP Code Sniffer validation （打上勾）-> Coding standard -> PSR2 -> Apply
-            -> PHP Mess Detector validation （打上勾）-> Options（选择所有规则) -> Apply
-        ````
+- [PHP_CS](dev/rule/phpcs.md)
+- [PHP_MD](dev/rule/phpmd.md)
 - Laravel 智能提示
     - 安装插件Laravel Plugin
     - composer require --dev barryvdh/laravel-ide-helper
