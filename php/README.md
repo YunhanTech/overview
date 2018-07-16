@@ -8,7 +8,7 @@
 - [dingo-api](laravel/plugins/dingo-api.md)
 
 ## 相关文档
-- [开发规范](init/dev-rule.md)
+- [开发规范](dev/rule.md)
 - [环境初始化](init.md)
     - [Phan 使用]
 - [学习路径](learn-road.md)
