@@ -16,7 +16,7 @@ vendor/bin/phan --init --init-level=3
 vendor/bin/phan
 
 ## 执行(windows)
-php vendor/bin/phan
+./vendor/bin/phan
 ```
 
 ## 核心配置解读 .phan/config.php
