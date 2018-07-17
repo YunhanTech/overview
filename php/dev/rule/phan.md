@@ -4,6 +4,14 @@ Phan是一个PHP的静态分析器，它倾向于最小化误报。它试图证�
 
 它会查找常见问题，并在类型信息可用或可以推断时验证各种操作的类型兼容性。
 
+## 扩展安装
+- ast
+    - [windows](https://windows.php.net/downloads/pecl/releases/ast/0.1.6/)
+    - mac: `pecl install ast`
+- pcntl.so
+    - mac: 用源码编译安装
+    - windows: 不支持
+
 ## 入门
 ```
 ## 安装
