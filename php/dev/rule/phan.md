@@ -22,7 +22,7 @@ vendor/bin/phan
 ## 核心配置解读 .phan/config.php
 ````php
 return [
-    // 执行时使用cpu核数，需要使用pcntl扩展，windows不支持，mac安装后，可以修改cpu核数
+    // 开启的子进程数量，需要使用pcntl扩展，windows不支持，mac安装后，可以修改
     'processes' => 1,
     
     // 开启进度条
