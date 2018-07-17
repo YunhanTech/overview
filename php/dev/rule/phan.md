@@ -53,3 +53,32 @@ return [
     ],
 ]
 ````
+
+## [忽略部分报错](https://github.com/phan/phan/wiki/Annotating-Your-Source-Code)：建议尽量不要使用
+### `suppress` 忽略整个方法
+````
+class D {
+    /**
+     * @suppress PhanUndeclaredClassMethod
+     */
+    function g() {
+        C::f();
+    }
+}
+````
+
+### `@phan-suppress-current-line` 忽略当前行
+```
+function test_line_suppression() {
+    echo $undef1;  // @phan-suppress-current-line PhanUndeclaredVariable
+    echo $undef2 + missingFn();
+}
+```
+
+### `@phan-suppress-next-line` 忽略下一行
+````
+function test_line_suppression() {
+    // @phan-suppress-next-line PhanUndeclaredVariable, PhanUndeclaredFunction
+    echo $undefVar2 + missing_function();  
+}
+````
