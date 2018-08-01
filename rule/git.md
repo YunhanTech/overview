@@ -25,12 +25,17 @@
 - 建议每周至少`merge`一次`master`
 - 养成完成需求随时提交的习惯
 
-#### 代码发布规范
-- merge master最新代码
-- 自测
-- 发布流程
-- 将代码提交到 master
-- 生成版本号 TAG
+#### 代码开发发布规范
+- 迭代开始从`master`新建版本分支
+    - 开发人员从此分支拉出个人分支进行开发
+- 测试环境代码为版本迭代分支
+- 发布
+    - merge master最新代码
+    - 自测
+    - 合并到预发布分支进行测试
+    - 合并到`master`分支发布代码
+    - 生成版本号 TAG
+    - 删除开发分支
 
 #### GIT 分支管理
 - 通常每个项目的代码将包括
@@ -41,9 +46,9 @@
     - user: 个人开发分支
     - TAG：每次发布后都生成对应的版本号TAG
 - 分支的命名规则分别
-    - feature-{v}-{info}-{date}
-    - fix-{v}-{info}-{date}
-    - user-{name}-{v}-{info}-{date}
+    - feature-{v}-{info}-{date}: `feature-0.0.1-test-20180801`
+    - fix-{v}-{info}-{date}: `fix-0.0.1-test-20180801`
+    - user-{name}-{v}-{info}-{date}: `user-ray-0.0.1-test-20180801`
         - v：版本号
         - info：特性
         - date：创建日期
