@@ -23,6 +23,6 @@
 
 ## 开发
 - [实习生规划](common/intership.md)
-- [PHP](php/README.md)
+- [PHP](https://github.com/YunhanPHP/overview)
 - [WEB前端](web/README.md)
 - [运维](operation/README.md)
