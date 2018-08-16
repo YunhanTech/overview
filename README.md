@@ -23,6 +23,7 @@
 
 ## 开发规范
 - [GIT使用规范](rule/git.md)
+- [URL规范](rule/url.md)
 
 ## 开发
 - [实习生规划](common/intership.md)
