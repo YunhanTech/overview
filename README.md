@@ -21,8 +21,12 @@
 ## 常用工具
 - [通用开发文档](http://devdocs.io/)
 
+## 开发规范
+- [GIT使用规范](rule/git.md)
+- [URL规范](rule/url.md)
+
 ## 开发
 - [实习生规划](common/intership.md)
-- [PHP](php/README.md)
+- [PHP](https://github.com/YunhanPHP/overview)
 - [WEB前端](web/README.md)
 - [运维](operation/README.md)
