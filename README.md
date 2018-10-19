@@ -17,6 +17,7 @@
     - [简介](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
     - [使用指南](http://www.bootcss.com/p/git-guide/)
     - [教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [基础知识](https://yuchengkai.cn/docs/zh/cs)
 
 ## 常用工具
 - [通用开发文档](http://devdocs.io/)
